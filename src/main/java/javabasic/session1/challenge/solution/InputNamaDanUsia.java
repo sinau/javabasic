@@ -13,5 +13,7 @@ public class InputNamaDanUsia {
 		nama = in.nextLine();
 		usia = in.nextInt();
 		System.out.println("Halo " + nama + "\nUsia anda adalah " + usia);
+		
+		in.close();
 	}
 }

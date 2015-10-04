@@ -17,5 +17,7 @@ public class CariLuasPersegiPanjang {
 		
 		luas = panjang * lebar;
 		System.out.println("Luas Persegi Panjang= " + luas);
+		
+		in.close();
 	}
 }
